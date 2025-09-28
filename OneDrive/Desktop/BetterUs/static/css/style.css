@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f7f9fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+nav a:last-child {
+    padding: 6px 14px;
+    background: #e6f2ff;
+    border-radius: 6px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 100px;
+    background: #fff;
+    padding: 40px 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 380px;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.container-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.email-inp,
+.password-inp {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.forgot-pass {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-pass a {
+    font-size: 13px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.divider {
+    font-size: 13px;
+    color: #777;
+    margin: 10px 0;
+    position: relative;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 20%;
+    height: 1px;
+    background: #ddd;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.google-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.google-btn:hover {
+    background: #f8f9fa;
+}
+
+.sign-up {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #444;
+}
+
+.sign-up a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
