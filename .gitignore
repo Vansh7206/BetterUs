@@ -1,0 +1,22 @@
+# System and environment files
+**/.anaconda/
+**/.android/
+**/.bash_history
+**/.conda/
+**/.condarc
+**/.continuum/
+**/.gitconfig
+**/.gradle/
+**/.ipynb_checkpoints/
+**/.ipython/
+**/.jupyter/
+**/.lesshst
+**/.matplotlib/
+**/.python_history
+# OneDrive temp folders
+**/NetHood/
+**/PrintHood/
+**/Recent/
+**/SendTo/
+**/Start Menu/
+**/Templates/
