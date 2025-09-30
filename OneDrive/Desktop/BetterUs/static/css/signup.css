@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.heading {
+    padding: 10px;
+    margin: 3px auto;
+}
+
+.text {
+    color: #555;
+    padding: 5px;
+}
+
+.pic img {
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.parent2 {
+    background-color: white;
+    font-size: 13px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 25px;
+    width: 400px;
+    margin: 10px auto;
+    box-shadow: 8px 8px 20px 4px rgb(199, 194, 194);
+}
+
+.form {
+    padding: 5px;
+    margin: 3px;
+}
+
+.button button {
+    padding: 10px;
+    margin: 1px auto;
+    color: white;
+    border: none;
+    background-color: rgb(75, 75, 219);
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button {
+    text-align: center;
+    display: inline;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(228, 221, 221);
+    display: inline;
+    padding: 10px;
+    margin: 1px auto;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(75, 75, 219);
+}
+
+.login {
+    margin: 10px;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+input,
+.button button {
+    width: 330px;
+}
+
+.parent1 {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+body {
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button:hover {
+    background-color: rgb(48, 48, 168);
+}
+
+input::placeholder {
+    color: #aaa;
+    font-size: 13px;
+}
+
+input[type="password"] {
+  -webkit-text-security: disc;
+}
