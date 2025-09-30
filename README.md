@@ -1,6 +1,6 @@
-# 🎓 Campus Volunteer Connect
+# 🎓 BetterUs
 
-Campus Volunteer Connect is a web app designed to connect **college students** with **on-campus events** that need volunteers.  
+BetterUs is a web app designed to connect **college students** with **on-campus events** that need volunteers.  
 Our platform creates a **win–win**: students get opportunities to **earn money, gain leadership experience, and build their resumes**, while event hosts save costs and run more engaging events.  
 
 ---
