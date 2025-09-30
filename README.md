@@ -15,7 +15,7 @@ Our platform creates a **win–win**: students get opportunities to **earn money
 ---
 
 ## 💡 Solution
-Campus Volunteer Connect provides:  
+BetterUs provides:  
 - A simple platform for **event organizers** to post volunteering opportunities.  
 - A space for **students** to browse events, register as volunteers, and earn rewards or stipends.  
 - Verified volunteering hours and certificates for students to boost their **CV and LinkedIn profiles**.  
