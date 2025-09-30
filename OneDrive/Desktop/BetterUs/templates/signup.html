@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Signup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
+
 <body>
-    <h1>signup page</h1>
+    <div class="parent1">
+        <div class="pic">
+            <img src="logo.png" width="55px" alt="Logo">
+        </div>
+
+        <div class="heading">
+            <h2>Create your BetterUs Account</h2>
+        </div>
+
+        <div class="text">
+            <p>Join our community and start making a difference.</p>
+        </div>
+    </div>
+
+    <div class="parent2">
+        <form action="">
+            <div class="form">
+                <label for="fullName">Full Name</label>
+                <br>
+                <input type="text" placeholder="John Doe" id="fullName" name="fullName" required>
+            </div>
+
+            <div class="form">
+                <label for="email">Email Address</label>
+                <br>
+                <input type="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form pass">
+                <label for="pass">Password</label>
+                <br>
+                <input type="password" name="pass" id="pass" placeholder="••••••••" required>
+            </div>
+
+            <div class="form">
+                <label for="confirmPass">Confirm Password</label>
+                <br>
+                <input type="password" id="confirmPass" name="confirmPass" placeholder="••••••••" required>
+            </div>
+
+            <div class="form">
+                <label for="skills">Skills (optional)</label>
+                <br>
+                <input type="text" placeholder="e.g. Event Planning, Fundraising">
+            </div>
+
+            <div class="form button">
+                <button type="submit">Sign-Up</button>
+            </div>
+
+            <div class="login">
+                <p>Already have an account? <a href="/">Log in</a></p>
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>
